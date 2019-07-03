@@ -12,9 +12,23 @@ p {
   background-color: #ffa100;
 }
 
+.title {
+  margin: 0px auto;
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+  font-family: "Arial Black";
+  background-color: #1618ff;
+}
+
+.buttoncontainer {
+  text-align: center;
+}
+
 #clientbutton {
-  margin-top: 50px;
+  margin: 20px;
   border-color: #a415fb;
+  padding: 20px;
   background-color: #9a74d5;
   font-size: 30px;
   color: #fff;
@@ -24,13 +38,4 @@ p {
 #clientbutton:hover {
   border-color: #200434;
   background-color: #a415fb;
-}
-
-.title {
-  margin: 0px auto;
-  padding-bottom: 25px;
-  text-align: center;
-  color: #fff;
-  font-family: "Arial Black";
-  background-color: #1618ff;
 }

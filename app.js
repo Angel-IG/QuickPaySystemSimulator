@@ -4,5 +4,5 @@ document.body.onload = () => {
   while (isNaN(nRows) || parseInt(nRows) <= 0) {
     nRows = parseInt(prompt('Invalid input. Please enter an integer number. This number will be the number of rows of the supermarket:'));
   }
-  document.getElementById('paragraphs').innerHTML += '<p>This supermarket have ' + nRows + ' rows.</p>';
+  document.getElementById('paragraphs').innerHTML += '<p>This supermarket has ' + nRows + ' rows.</p>';
 };
